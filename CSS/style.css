@@ -1,0 +1,402 @@
+@font-face {
+    font-family: naslo;
+    src: url(/FONT/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: naslo;
+}
+
+#landing_page {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-color: rgb(255, 255, 255);
+
+    nav {
+        width: 100%;
+        padding: 3vw 6vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    nav h2 a {
+        font-size: 2rem;
+        font-weight: 600;
+        color: black;
+        text-decoration: none;
+        letter-spacing: -10%;
+    }
+
+    .NVP {
+        display: flex;
+        align-items: center;
+        gap: 2vw;
+    }
+
+    .NVP h4 {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .NVP h4 a {
+        font-size: 1.2vw;
+        font-weight: 500;
+        color: black;
+        text-decoration: none;
+    }
+    
+
+
+    /*.NVP h4 {
+        margin-block-start: -0.1em;
+        margin-block-end: 0em;
+    }*/
+}
+
+.center_first {
+        padding-left: 6vw;
+        margin-top: 9vw;
+}
+
+.CF h3 {
+    font-weight: 500;
+    font-size: 1.5vw;
+    line-height: 4vw;
+}
+
+.CF h1 {
+    font-weight: 500;
+    font-size: 3.1vw;
+}
+
+.third {
+    padding: 3vw 6vw;
+    display: flex;
+    align-items: flex-end;
+    gap: 8vw;
+    position: relative;
+}
+
+.paragraph {
+    width: 100%;
+}
+
+.paragraph h3 {
+    opacity: 0.9;
+    font-size: 1.3vw;
+    font-weight: 400;
+    line-height: 2.5vw;
+}
+
+.paragraph span {
+    line-height: 2.3vw;
+    font-size: 1.2 vw;
+    font-weight: 500;
+}
+
+.paragraph a {
+    color: #000000;
+}
+
+.photo_responsive {
+    width: 100%;
+    height: auto;
+    border-radius: 1vw;
+}
+
+#page_2 {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+
+.under_page {
+    margin: 0 6vw;
+    padding: 8vw 0 0 0;
+    display: flex;
+    flex-direction: column;    
+}
+
+.under_page h1{
+    font-weight: 500;
+    font-size: 3.1vw;
+}
+
+.sticky_nav {
+    display: flex;
+    gap: 4vw;
+}
+
+.sticky_nav {
+    padding: 6vw 0 0 0;
+}
+
+.sticky_nav h4 {
+    width: 20%;
+    height: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #D9D9D9;
+    border-radius: 0.6vw;
+    gap: 8px;
+}
+
+.sticky_nav h4 a {
+    font-size: 1.2vw;
+    font-weight: 500;
+    color: #000000;
+    text-decoration: none;
+}
+
+.outer_page {
+    padding: 0 6vw 3vw 6vw;
+    position: relative;
+}
+
+.outer_page h1 {
+    font-size: 3.1vw;
+    font-weight: 500;
+    padding: 6vw 0;
+}
+
+.work_con {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 4vw;
+}
+
+.one {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 47.1%;
+    height: 40vw;
+    border-radius: 0.5vw;
+    background-color: #ffffff;
+    background: rgb(231,231,231);
+    background: radial-gradient(circle, rgba(231,231,231,1) 0%, rgba(96,96,96,1) 100%);
+}
+
+.two {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 47.1%;
+    height: 40vw;
+    border-radius: 0.5vw;
+    background-color: #ffffff;
+    background: rgb(231,231,231);
+    background: radial-gradient(circle, rgba(231,231,231,1) 0%, rgba(96,96,96,1) 100%);
+}
+
+.three {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 47.1%;
+    height: 40vw;
+    border-radius: 0.5vw;
+    background-color: #ffffff;
+    background: rgb(231,231,231);
+    background: radial-gradient(circle, rgba(231,231,231,1) 0%, rgba(96,96,96,1) 100%);
+}
+
+.four {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 47.1%;
+    height: 40vw;
+    border-radius: 0.5vw;
+    background-color: #ffffff;
+    background: rgb(231,231,231);
+    background: radial-gradient(circle, rgba(231,231,231,1) 0%, rgba(96,96,96,1) 100%);
+}
+
+.four img {
+    width: 100%;
+    height: 100%;
+}
+
+.one h4 {
+    font-size: 1.2vw;
+    font-weight: 500;
+    top: -28%;
+    position: relative;
+}
+
+.one p {
+    font-size: 3vw;
+}
+
+.two h4 {
+    font-size: 1.2vw;
+    font-weight: 500;
+    top: -28%;
+    position: relative;
+}
+
+.two p {
+    font-size: 3vw;
+}
+
+.three h4 {
+    font-size: 1.2vw;
+    font-weight: 500;
+    top: -28%;
+    position: relative;
+}
+
+.three p a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 3vw;
+}
+
+.four h4 {
+    font-size: 1.2vw;
+    font-weight: 500;
+    top: -28%;
+    position: relative;
+}
+
+.four p {
+    font-size: 3vw;
+}
+
+#page_3 {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.page_three_first_text {
+    line-height: 4vw;
+    padding: 8vw 6vw 0 6vw;
+}
+
+.PTFT h4 {
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+.PTFT h1 {
+    font-size: 3.1vw;
+    font-weight: 500;
+}
+
+.scroll_bar {
+    padding: 6vw 6vw 6vw 6vw;
+    display: flex;
+    gap: 2vw;
+}
+
+.BAR {
+    width: 50%;
+    height: 35vw;
+}
+
+.bar_one {
+    background-color: #ECECFF;
+}
+
+.bar_two {
+    background-color: #cee6dd;
+}
+
+.bar_three {
+    background-color: #FFF2D4;
+}
+
+.page_4 {
+    width: 100%;
+}
+
+.page_4 h1 {
+    font-size: 3.1vw;
+    font-weight: 500;
+    padding: 6vw 6vw 0 6vw;
+}
+
+.project_name_list {
+    padding: 6vw 6vw 0 6vw;
+    display: flex;
+    gap: 5vw;
+}
+
+.project_list {
+    width: 30%;
+}
+
+.project_list h3 {
+    margin-bottom: 20px;
+    font-size: 2.1vw;
+    font-weight: 500;
+}
+
+.project_list h4 {
+    padding-bottom: 15px;
+}
+
+.project_list h4 a {
+    text-decoration: none;
+    font-size: 1.2vw;
+    color: #000000;
+    font-weight: 400;
+    transition: 0.5s;
+}
+
+.project_list a:hover {
+    padding-left: 10px;
+    color: #a90000;
+}
+
+.last_page {
+    position: relative;
+    padding: 6vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.end_line {
+    gap: 6vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.end_line h4 {
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+
+.end_line a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.end_line a:hover {
+    color: #a90000;
+}
