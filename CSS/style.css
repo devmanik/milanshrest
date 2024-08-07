@@ -121,6 +121,7 @@ html, body {
 }
 
 #page_2 {
+    display: none;
     width: 100%;
     min-height: 100vh;
     position: relative;
@@ -287,6 +288,7 @@ html, body {
 }
 
 #page_3 {
+    display: none;
     width: 100%;
     min-height: 100vh;
 }
@@ -330,6 +332,7 @@ html, body {
 }
 
 .page_4 {
+    display: none;
     width: 100%;
 }
 
@@ -373,10 +376,11 @@ html, body {
 }
 
 .last_page {
+    display: none;
     position: relative;
     padding: 6vw;
     width: 100%;
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: space-between;
 }
